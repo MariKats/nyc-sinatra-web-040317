@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1>FIGURES</h1>
+        <ul>
+        <% @figures.each do |figure| %>
+            <li><%= figure.name%>, <%= figure.id%> </li>
+        <% end %>
+    </ul>
+
+
+    </body>
+</html>
